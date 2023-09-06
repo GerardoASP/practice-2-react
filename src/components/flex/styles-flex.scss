@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+    .content {
+      margin: 10px;
+    }
+  
+    .container1 {
+      display: flex;
+  
+      .flex-item1 {
+        height: 30px;
+        width: 100%;
+        background-color: #012C4B;
+      }
+    }
+  
+    .container2 {
+      display: flex;
+  
+      .flex-item1 {
+        height: 30px;
+        width: 100%;
+        background-color: #005395;
+      }
+  
+      .flex-item2 {
+        height: 30px;
+        width: 100%;
+        background-color: #C711A4;
+      }
+    }
+  
+    .container3 {
+      display: flex;
+  
+      .flex-item1 {
+        height: 30px;
+        width: 100%;
+        background-color: #012C4B;
+      }
+  
+      .flex-item2 {
+        height: 30px;
+        width: 100%;
+        background-color: #8A3D7B;
+      }
+  
+      .flex-item3 {
+        height: 30px;
+        width: 100%;
+        background-color: #5D0247;
+      }
+    }
+  
+    .container4 {
+      display: flex;
+  
+      .column1 {
+        width: 33.3%;
+  
+        .flex-item1 {
+          height: 100%;
+          width: 100%;
+          background-color: #C711A4;
+        }
+      }
+  
+      .column2 {
+        width: 66.6%;
+  
+        .row1 {
+          display: flex;
+  
+          .flex-item1 {
+            height: 30px;
+            width: 100%;
+            background-color: #012C4B;
+          }
+        }
+  
+        .row2 {
+          display: flex;
+  
+          .flex-item1 {
+            height: 30px;
+            width: 100%;
+            background-color: #5D0247;
+          }
+  
+          .flex-item2 {
+            height: 30px;
+            width: 100%;
+            background-color: #005395;
+          }
+        }
+  
+        .row3 {
+          display: flex;
+  
+          .flex-item1 {
+            height: 30px;
+            width: 100%;
+            background-color: #012C4B;
+          }
+  
+          .flex-item2 {
+            height: 30px;
+            width: 100%;
+            background-color: #8A3D7B;
+          }
+  
+          .flex-item3 {
+            height: 30px;
+            width: 100%;
+            background-color: #C711A4;
+          }
+        }
+      }
+    }
+  }
