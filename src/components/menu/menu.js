@@ -3,6 +3,7 @@ import './stylesMenu.scss';
 import Logo from '../../assets/images/UAM-Logo.png'
 import Avatar from '../../assets/images/avatar.jpeg';
 import 'font-awesome/css/font-awesome.min.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 class Navbar extends Component {
@@ -28,13 +29,34 @@ class Navbar extends Component {
         <img src={Logo} alt="Logo UAM" className="logo" />
         <ul className={`navbar-options ${isMenuOpen ? 'active' : ''}`}>
           <li>
-            <a href="./pages/flex.html">Flexbox</a>
+            <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >Flexbox</Link>
           </li>
           <li>
-            <a href="./pages/contact.html">Contact</a>
+            <Link
+                activeClass="active"
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >Contact</Link>
           </li>
           <li>
-            <a href="./pages/products.html">Products</a>
+            <Link
+                activeClass="active"
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              > Products</Link>
           </li>
         </ul>
         <div className="avatar-container">
